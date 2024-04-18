@@ -1,0 +1,53 @@
+.wback{
+  font-family: Poppins;
+  font-size:  1.5rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  color: rgba(0, 145, 255, 1);
+}
+.back{
+font-family: Poppins;
+font-size:  1.5rem;
+font-weight: 700;
+line-height: 2.5rem;
+color: #000;
+}
+.txt{
+  font-family: Poppins;
+  font-size:  .8rem;
+  font-weight: 400;
+  line-height: .8rem;
+  color: rgba(183, 182, 189, 1);
+  }
+
+.labels{
+font-family: Poppins;
+font-size: .8rem;
+font-weight: 500;
+}
+
+.fpassword{
+color:rgba(0, 145, 255, 1);
+font-family: Poppins;
+font-size: .8rem;
+font-weight: 400;
+line-height: .8rem;
+}
+.label{
+  font-family: Poppins;
+  font-size: .8rem;
+  font-weight: 500;
+  }
+
+  .link{
+    cursor:pointer;
+  }
+  .txtp{
+    font-family: Poppins;
+    font-size:  .8rem;
+    font-weight: 400;
+    line-height: 1rem;
+    text-align: center;
+    color: rgba(183, 182, 189, 1);
+    }
+  
