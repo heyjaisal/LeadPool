@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Login from "./components/Login/Login";
 import CompanyCreation from "./components/Home/CompanyCreation";
 import PrivacyAndPolicy from "./components/Login/PrivacyAndPolicy";
+import Dashboard from "./components/dashboard/Dashboard";
 
 
 function App() {
@@ -38,8 +39,13 @@ function App() {
   
       },
       {
-        path: "/privacyandpolicy",
-        element: <PrivacyAndPolicy/>,
+        path: "/dashboard",
+        element: <Dashboard title='dashboard'/>,
+  
+      },
+      {
+        path: "/followup",
+        element: <Dashboard title='followup'/>,
   
       },
     ],
